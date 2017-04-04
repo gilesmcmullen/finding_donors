@@ -13027,6 +13027,8 @@ Naive Predictor: [Accuracy score: 0.2478, F-score: 0.2917]
 <span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">GaussianNB</span>
 <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span><span class="p">,</span> <span class="n">SGDClassifier</span>
 
+<span class="c1">#This code below was taken from the scikit-learn site</span>
+
 <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Naive Bayes&quot;</span><span class="p">,</span> <span class="s2">&quot;Decision Tree&quot;</span><span class="p">,</span> <span class="s2">&quot;Nearest Neighbours&quot;</span><span class="p">,</span> <span class="s2">&quot;Linear SVC&quot;</span><span class="p">,</span>
           <span class="s2">&quot;Logistic Regression&quot;</span><span class="p">,</span><span class="s2">&quot;SGDC&quot;</span><span class="p">,</span> <span class="s2">&quot;Ensemble - Bagging&quot;</span><span class="p">,</span> <span class="s2">&quot;Ensemble - AdaBoost&quot;</span><span class="p">,</span>
          <span class="s2">&quot;Ensemble - Random Forest&quot;</span><span class="p">,</span><span class="s2">&quot;Ensemble - Gradient Boosting&quot;</span><span class="p">]</span>
@@ -13638,7 +13640,7 @@ In the code block below, you will need to implement the following:</p>
     <span class="k">print</span> <span class="s2">&quot;{} trained on {} samples.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">learner</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">sample_size</span><span class="p">)</span>
         
     <span class="c1"># Return the results</span>
-    <span class="k">return</span> <span class="n">results</span>
+    <span class="k">return</span> <span class="n">results</span> 
 </pre></div>
 
 </div>
